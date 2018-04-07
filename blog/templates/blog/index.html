@@ -1,0 +1,55 @@
+{% load staticfiles %}
+<html>
+<head>
+	<title>INDEX</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="{% static 'bitcoinCustomStyling.css' %}">
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg nav-justified">
+  		<a class="nav-item nav-link active" href="{% url 'index' %}">Home</a>
+  		<a class="nav-item nav-link" href="{% url 'intro' %}">Start Tour</a>
+  		<a class="nav-item nav-link" href="#">About</a>
+	</nav>
+
+	<div class="jumbotron parallax paral1">
+		<div class = "container">
+		<h1 class="display-2" style="text-align: left;">How did Bitcoin lose its value as an exchange coin?</h1>
+  		<hr class="my-4">
+  		<p style="text-align: left;">This Data Dashboard Web Application aims to inform viewers with regards to the rise and fall of bitcoin.</p>
+		</div>
+	</div>
+
+	<div class="jumbotron parallax paral2">
+		<div class = "container" style="background-color:rgb(255,192,45);padding:50px;">
+		<h1 class="display-4">Welcome</h1>
+		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+	<div class="jumbotron parallax paral3">
+		<div class = "container color-white">
+		<h1 class="display-4">Start Tour</h1>
+		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p class="lead">
+		<a class="btn btn-warning btn-lg btn-md" href="{% url 'intro' %}" role="button">Start Tour</a>
+		</p>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<p>This Data Dashboard Web Application was made by Ian Ona & Rolo Pena (Team Django Unchained)
+		in fulfilment of their final assessment task as probationary members of the DLSU Center for Complexities
+		and Emerging Technologies</a></p>
+		<p>
+		<a href="#">BACK TO TOP</a>
+		</p>
+	</footer>
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
