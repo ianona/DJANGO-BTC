@@ -94,6 +94,17 @@ h1 {
 	background-image: url("img/bg-5.jpg");
 }
 
+.paral7 {
+	background-image: url("img/bg-6.jpg");
+}
+
+.paral8 {
+	background-image: url("img/bg-7.jpg");
+}
+
+.paral9 {
+	background-image: url("img/con.jpg");
+}
 .color-white{
 	background-color:rgba(255, 255, 255,.7);
 	padding:50px;
@@ -134,6 +145,76 @@ h1 {
 	font-family: Consolas, monaco, monospace;
 	color:white;
 	padding:5%;
+}
+
+img{
+	margin:5%;
+}
+
+.gput{
+	font-family:contentFont;
+	font-size: 2vw;
+	text-align: center;
+	margin-top:3%;
+}
+.gpu{
+	height:300px;
+	width:80%;
+	margin:auto;
+	padding:5%;
+	font-family:contentFont;
+}
+
+.gpu1{
+	background-image:url("img/GTX1050ti.png");
+	background-size: cover;
+}
+
+.gpu2{
+	background-image:url("img/GTX1060.png");
+	background-size: cover;
+}
+
+.gpu3{
+	background-image:url("img/GTX1070.png");
+	background-size: cover;
+}
+
+.gpu4{
+	background-image:url("img/GTX1070ti.png");
+	background-size: cover;
+}
+
+.gpu5{
+	background-image:url("img/GTX1080.png");
+	background-size: cover;
+}
+
+.gpu6{
+	background-image:url("img/GTX1080ti.png");
+	background-size: cover;
+}
+
+.circle{
+	height:250px;
+	width:250px;
+
+	margin:3%;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.circ1{
+	background-image:url("img/ian.jpg");
+	background-size: cover;
+}
+.circ2{
+	background-image:url("img/comet.jpg");
+	background-size: cover;
+}
+.circ3{
+	background-image:url("img/rolo.jpg");
+	background-size: cover;
 }
 
 .footer {
