@@ -1,0 +1,64 @@
+{% load staticfiles %}
+<html>
+<head>
+	<title>ABOUT</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="{% static 'bitcoinCustomStyling.css' %}">
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg nav-justified">
+  		<a class="nav-item nav-link" href="{% url 'index' %}">Home</a>
+  		<a class="nav-item nav-link" href="{% url 'q1' %}">Start Tour</a>
+  		<a class="nav-item nav-link active" href="{% url 'about' %}">About</a>
+	</nav>
+
+	<div class="jumbotron parallax paral1">
+		<div class = "container">
+			<h1 class="display-4">
+				About the Researchers
+			</h1>
+			<div style="text-align: center;">
+			
+			<div class="circle circ1">
+			</div>
+			<div class="circle circ2">
+			</div>
+			<div class="circle circ3">
+			</div>
+		</div>
+
+
+			<h1 class="display-4">
+				Team Django Unchained
+			</h1>
+<h1 class="display-5">
+Ian Ona | Romeo Pena
+			</h1>
+
+			<p class="lead">
+			We are sophomore De La Salle University students under the course of Computer Science who aspire to research and analyze numerous kinds of relevant data. As aspiring data scientists, we aim to get insights on trending topics and interesting behaviour around us so that these insights discovered may be used for the advantage of the people involved in such trending topics.
+</p>
+<p class="lead">
+We are in a student organization called COMET which is short for DLSU Center for Complexity and Emerging Technologies. They are a research organization that aims to understand and analyze the data around us. They have done numerous projects and research on topics that help the lives of the people inside and outside of DLSU. These projects touch a wide array of topics in computer science and research. These projects inlude Air Guitar, traffic monitoring, machine learning, and much more. This organization guides us in doing research on our topics of interest and data analyzing. This research analysis on Bitcoin is done with the help of the COMET organization. 
+
+			</p>
+	
+		</div>
+	</div>
+
+	<footer class="footer">
+		<p>This Data Dashboard Web Application was made by Ian Ona & Rolo Pena (Team Django Unchained)
+		in fulfilment of their final assessment task as probationary members of the DLSU Center for Complexities
+		and Emerging Technologies</a></p>
+		<p>
+		<a href="#">BACK TO TOP</a>
+		</p>
+	</footer>
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

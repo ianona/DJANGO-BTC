@@ -1,0 +1,63 @@
+{% load staticfiles %}
+<html>
+<head>
+	<title>CONCLUSION</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="{% static 'bitcoinCustomStyling.css' %}">
+</head>
+<body>
+	<nav class="fixed-top">
+        <nav class="navbar navbar-expand-lg nav-justified">
+            <a class="nav-item nav-link" href="{% url 'index' %}">Home</a>
+            <a class="nav-item nav-link" href="{% url 'q1' %}">Start Tour</a>
+            <a class="nav-item nav-link" href="{% url 'about' %}">About</a>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg nav-justified yellow-navbar">
+            <a class="nav-item nav-link" href="{% url 'q1' %}">Question #1</a>
+            <a class="nav-item nav-link" href="{% url 'q2' %}">Question #2</a>
+            <a class="nav-item nav-link" href="{% url 'q3' %}">Question #3</a>
+            <a class="nav-item nav-link" href="{% url 'q4' %}">Question #4</a>
+            <a class="nav-item nav-link active" href="{% url 'conclusion' %}">Conclusion</a>
+        </nav>
+    </nav>
+
+	<div class="jumbotron parallax paral9">
+		<div class = "container">
+		<h1 class="display-2" style="text-align: left;margin-top:10%;">Conclusion</h1>
+  		<hr class="my-4">
+  		<div class="container" style="background-color:rgba(255,255,255,0.5);padding:50px;">
+  		<p style="text-align: left;">
+  			Bitcoin has renowned itself for being one of the first few cryptocurrencies to have bitcoin values worth thousands of dollars. The value of a single bitcoin used to be a single dollar upon it's realease, but this value has increased over the years of its existence and has even reached an all time high of 19,783.06 USD near the end of the year 2017. This new cryptocurrency becomes relevant as time progresses as technology is being used more and more everyday to better and convenience our human living conditions. It even becomes more relevant as more and more companies have started to accept bitcoin as a mode of payment nowadays. 
+  		</p>
+  		<p style="text-align: left;">
+  			The first segment of the research pertaining to level of legality and regulation of bitcoin has led the researchers to believe that political factors do play a large part in the value of bitcoin as an exchange coin. This is evident in the rapid splurge of bitcoin prices that occured when Japan legalized bitcoin as a form of currency and surpassed China as the world's largest Bitcoin market. The second question proved that actions such as bitcoin farming can be harmful to its value. People at this point in time see bitcoin as a way of earning money rather than using it as a form of currency to buy material goods and services over the internet. An innovation of conveniency has been perverted into a way that allows someone to exploit the bitcoin system and get money out of it.
+  		</p>
+  		<p style="text-align: left;">
+  			The third question pertaining to alternative currencies led the researchers to believe in the encompassing popularity of cryptocurrencies in general, and not just in the realm of Bitcoin. Steady increases in the values of these altcoins as well as strong linear relationship between all of them proved that the public is starting to engage in the use and mining of digital currencies, with Bitcoin yielding the most return. The last question dealing with Bitcoin's price in relation to its media exposure has left us to conclude that there is a weak indirect relationship between the two. This could be in relation to the existence of Bitcoin since 2008 having little media exposure yet still functioning as a steadily growing digital currency.
+  		</p>
+
+  		<p style="text-align: left;">
+  			Overall, our study showed that the emergence of more markets for bitcoin has led to the booming of its prices. Although bitcoin has suffered significant drops in the past, its growing user base and amount of investors who continue to push for the currency to being a legitimized type of asset allow for steady growth and the capacity to bounce back after suffering from these dips.
+  		</p>
+  	</div>
+
+		</div>
+	</div>
+
+	<footer class="footer">
+		<p>This Data Dashboard Web Application was made by Ian Ona & Rolo Pena (Team Django Unchained)
+		in fulfilment of their final assessment task as probationary members of the DLSU Center for Complexities
+		and Emerging Technologies</a></p>
+		<p>
+		<a href="#">BACK TO TOP</a>
+		</p>
+	</footer>
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

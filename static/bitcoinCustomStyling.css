@@ -1,0 +1,154 @@
+@font-face {
+    font-family: titleFont;
+    src: url(fonts/domotika.ttf);
+}
+
+@font-face {
+    font-family: contentFont;
+    src: url(fonts/ubuntu.ttf);
+}
+
+body {
+	background-color: #3a6b35;
+	font-family: contentFont;
+}
+
+h1 {
+	font-family:titleFont;
+}
+
+.navbar{
+	margin-top:10px;
+}
+
+.navbar a {
+	background-color: #4e8742;
+	color:black;
+	border-radius: 0;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  background-color: #3a6b35!important;
+  color: white!important;
+}
+
+.yellow-navbar a {
+	background-color: #ffc02d;
+	color:black;
+	border-radius: 0;
+}
+
+.yellow-navbar a.active,
+.yellow-navbar a:hover {
+  background-color: #bd921b!important;
+  color: white!important;
+}
+
+.nav-item {
+	font-family:contentFont;
+	border-radius: 0!important;
+}
+
+.nav-tabs > li > a {
+  color: rgb(0,0,0)!important;
+}
+
+
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+.parallax {
+	min-height: 480px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	padding-top:130px;
+	padding-bottom:130px;
+}
+
+/* Image for Parallax Section */ 
+.paral1 {
+	background-image: url("img/bg-1.jpg");
+}
+
+.paral2 {
+	background: #3a6b35;
+}
+
+.paral3 {
+	background-image: url("img/bg-2.jpg");
+}
+
+.paral4 {
+	background-image: url("img/bg-3.jpg");
+}
+
+.paral5 {
+	background-image: url("img/bg-4.jpg");
+}
+
+.paral6 {
+	background-image: url("img/bg-5.jpg");
+}
+
+.color-white{
+	background-color:rgba(255, 255, 255,.7);
+	padding:50px;
+}
+
+.color-white2{
+	background-color:rgb(255, 255, 255);
+	padding:50px;
+}
+
+.color-yellow{
+	background-color:rgba(255,192,45,.7);
+	padding:50px;
+}
+
+.color-green{
+	background-color:rgba(78,135,66,.7);
+	padding:50px;
+}
+
+/* Paragraph for Parallax Section */ 
+.parallax p {
+	font-size: 20px;
+	color:black;
+	text-align: center;
+	font-family:contentFont;
+}
+ 
+/* Heading for Parallax Section */ 
+.parallax h1 {
+	color: black;
+	text-align: center;
+	font-family:titleFont;
+}
+
+.code{
+	background-color:#383737!important;
+	font-family: Consolas, monaco, monospace;
+	color:white;
+	padding:5%;
+}
+
+.footer {
+padding: 3rem 0;
+padding-left: 5rem;
+padding-right: 5rem;
+text-align: center;
+color: black;
+background-color:#ffc02d;
+}
+ 
+.footer a {
+color: black;
+text-decoration: none;
+background-color:white;
+border-radius:4px;
+padding:10px;
+}
